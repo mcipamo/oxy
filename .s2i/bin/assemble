@@ -11,7 +11,7 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 cp -Rf /tmp/src/*.html ./
 
-DATE=$(+%Y-%m-%d)
+DATE=$("+%Y-%m-%d")
 
 echo "Page build $DATE" >> ./info.html
 echo "Astra inclinant, sed non obligant" >> ./info.html
